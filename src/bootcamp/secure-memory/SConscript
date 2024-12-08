@@ -1,0 +1,7 @@
+Import("*")
+
+SimObject("SecureMemory.py", sim_objects=["SecureMemory"])
+
+Source("secure_memory.cc")
+
+DebugFlag("SecureMemoryDebugFlag")
